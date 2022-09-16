@@ -58,7 +58,7 @@ function buildToDo(todo, index) {
   // Tu código acá:
   let toDoShell = document.createElement('div');
   toDoShell.setAttribute('class','toDoShell');
-  toDoShell.addEventListener('click',completeToDo)
+  toDoShell.addEventListener('click',completeToDo);
   let toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
   toDoText.setAttribute('id', index);
