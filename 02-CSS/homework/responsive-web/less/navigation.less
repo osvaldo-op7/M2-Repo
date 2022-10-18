@@ -1,1 +1,25 @@
 // Código de Nav acá
+nav {
+    background-color: @nav-bg;
+    font-family: @nav-font;
+    border-color: @nav-border;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    h2 {
+         margin-bottom: 0.3em;   
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    li {
+        &:hover{
+            cursor: pointer;
+            color: blue;
+        }
+    }
+}
